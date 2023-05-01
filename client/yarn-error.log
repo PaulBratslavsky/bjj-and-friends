@@ -1,0 +1,64 @@
+Arguments: 
+  /Users/paulbratslavsky/.nvm/versions/node/v16.18.0/bin/node /Users/paulbratslavsky/.nvm/versions/node/v16.18.0/bin/yarn
+
+PATH: 
+  /Users/paulbratslavsky/.nvm/versions/node/v16.18.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/paulbratslavsky/.nvm/versions/node/v16.18.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.18.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/paulbratslavsky/Desktop/bjj-trainer/client/package.json: Unexpected token } in JSON at position 776
+      at JSON.parse (<anonymous>)
+      at /Users/paulbratslavsky/.nvm/versions/node/v16.18.0/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/Users/paulbratslavsky/.nvm/versions/node/v16.18.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/paulbratslavsky/.nvm/versions/node/v16.18.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "private": true,
+    "sideEffects": false,
+    "scripts": {
+      "build": "remix build",
+      "dev": "remix dev",
+      "start": "cross-env NODE_ENV=production netlify dev",
+      "typecheck": "tsc"
+    },
+    "dependencies": {
+      "@netlify/functions": "^1.4.0",
+      "@remix-run/netlify": "^1.15.0",
+      "@remix-run/node": "^1.15.0",
+      "@remix-run/react": "^1.15.0",
+      "cross-env": "^7.0.3",
+      "isbot": "^3.6.8",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "swiper": "^8.4.4"
+    },
+    "devDependencies": {
+      "@remix-run/dev": "^1.15.0",
+      "@remix-run/eslint-config": "^1.15.0",
+      "@remix-run/serve": "^1.15.0",
+      "@types/react": "^18.0.35",
+      "@types/react-dom": "^18.0.11",
+      "eslint": "^8.38.0",
+      "tailwindcss": "^3.3.2",
+      "typescript": "^4.9.5",
+    },
+    "engines": {
+      "node": ">=14"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
